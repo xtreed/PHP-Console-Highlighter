@@ -1,5 +1,5 @@
 {
-    "name": "jakub-onderka/php-console-highlighter",
+    "name": "xtreed/php-console-highlighter",
     "description": "Highlight PHP code in terminal",
     "type": "library",
     "license": "MIT",
@@ -25,5 +25,7 @@
         "squizlabs/php_codesniffer": "~1.5",
         "jakub-onderka/php-code-style": "~1.0"
     },
-    "abandoned": "php-parallel-lint/php-console-highlighter"
+    "replace": {
+       "jakub-onderka/php-console-highlighter": "0.3.*|0.4.*"
+    }
 }
